@@ -1,0 +1,107 @@
+/* Position the navbar container inside the image */
+
+/* The navbar */
+.topnav {
+  float: right;
+  overflow: hidden;
+  width: 50%;
+}
+
+.topnav-left p {
+  float: left;
+  overflow: hidden;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  font-size: 60px;
+  font-weight: bold;
+  height: 10%;
+  color: rgb(148, 142, 142);
+  text-decoration: none;
+}
+.welcomeText {
+  text-align: center;
+  vertical-align: middle;
+  padding: 100px 0px;
+  color: rgb(148, 142, 142);
+  font-size: 100px;
+}
+
+/* Navbar links */
+.topnav p {
+  float: right;
+  color: rgb(255, 254, 254);
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration-style: solid;
+  padding: 40px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav p:hover {
+  text-decoration: none;
+  color: brown;
+}
+
+.iframe-container {
+  margin-top: 5px;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 20%;
+}
+.iframe-container iframe {
+  position: absolute;
+  justify-content: center;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  margin-left: auto; /* Automatic margin from left */
+  margin-right: auto;
+}
+.howItWorks {
+  text-align: center;
+  padding: 40px 100px;
+  height: 500px;
+}
+
+.hr {
+  border-width: 2px 2px 0;
+  height: 3;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.faqs {
+  text-align: center;
+}
+
+.contactUs {
+  position: absolute;
+  background-color: gray;
+  height: auto !important;
+  min-height: 40%;
+  height: 40%;
+  width: 100%;
+}
+
+.contactUs p {
+  color: rgb(255, 254, 254);
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration-style: solid;
+  padding: 40px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contactUs a {
+  color: rgb(255, 254, 254);
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration-style: solid;
+  padding: 40px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
