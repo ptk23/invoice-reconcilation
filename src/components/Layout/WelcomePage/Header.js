@@ -21,6 +21,7 @@ class Header extends Component {
       backgroundSize: "cover",
       /* Needed to position the navbar */
       position: "relative",
+      maxWidth: "100%",
     };
 
     return (
